@@ -12,7 +12,7 @@ Use Jsmpeg for rtsp streaming over NAT
 
 
 3) Clone repo into your project folder
-`git clone https://github.com/phoboslab/jsmpeg.git`
+`git clone https://github.com/JutsFunFor/fibbee_streaming.git`
 
 4) Inside jsmpeg folder:
 `node websocket-relay fibbee 9100 9000`
