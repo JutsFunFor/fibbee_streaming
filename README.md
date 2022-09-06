@@ -11,7 +11,7 @@ ssh -L 8888:192.168.1.22:554 -p port user@host.com
 2) Install ffmpeg https://ffmpeg.org/
 
 
-3) Clone jsmpeg to your project folder
+3) Clone repo into your project folder
 `git clone https://github.com/phoboslab/jsmpeg.git`
 
 4) Inside jsmpeg folder:
@@ -22,7 +22,6 @@ ssh -L 8888:192.168.1.22:554 -p port user@host.com
 
 6) Now you can use stream in your html page!
 `<script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>`
- ` <div class="jsmpeg" data-url="ws://localhost:9000/"`
-`data-loop="true" data-autoplay="true">`
+ ` <div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true">`
  ` </div>`
 
