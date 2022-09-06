@@ -1,5 +1,5 @@
 # Fibbee Streaming
-Use Jsmpeg for rtsp streaming over NAT
+Use JSMpeg for rtsp streaming over NAT
 
 ![Fibbee](https://user-images.githubusercontent.com/43553016/188693618-7805b4e4-e52c-44bc-a2b9-b0467f5a7d4b.png)
 
