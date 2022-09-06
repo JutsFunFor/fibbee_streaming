@@ -6,6 +6,7 @@ Use Jsmpeg for rtsp streaming over NAT
 `
 ssh -L 8888:192.168.1.22:554 -p port user@host.com
 `
+
 2) Install ffmpeg https://ffmpeg.org/
 
 
