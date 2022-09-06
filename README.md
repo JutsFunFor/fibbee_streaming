@@ -18,7 +18,9 @@ Use Jsmpeg for rtsp streaming over NAT
 `node websocket-relay fibbee 9100 9000`
 
 5) Run ffmpeg decoding session:
-`ffmpeg -rtsp_transport tcp -i rtsp://admin:pipipi@localhost:8888/h264Preview_01_sub -f mpegts -codec:v mpeg1video -framerate 25 -s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee`
+`ffmpeg -rtsp_transport tcp -i rtsp://admin:pipipi@localhost:8888/h264Preview_01_sub
+-f mpegts -codec:v mpeg1video -framerate 25
+-s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee`
 
 6) Now you can use stream in your html page!
 `<script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>`
