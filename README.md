@@ -1,7 +1,7 @@
 # Fibbee_streaming
 Use Jsmpeg for rtsp streaming over NAT
 
-![alt text](C://Users/Admin/Desctop/Fibbee.png)
+![alt text](https://user-images.githubusercontent.com/43553016/188692412-bc1a6931-9893-4066-b472-986b06891269.png)
 
 1) Port forwarding
 
