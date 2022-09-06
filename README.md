@@ -22,6 +22,5 @@ ssh -L 8888:192.168.1.22:554 -p port user@host.com
 
 6) Now you can use stream in your html page!
 `<script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>`
- ` <div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true">`
- ` </div>`
+ `<div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true"></div>`
 
