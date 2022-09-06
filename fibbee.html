@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fibbee</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<section class="gallery">
+
+			<div class="frame">
+				<div class="frame__content">
+					<h2>Coffee World</h2>
+				</div>
+			</div>
+
+			<div class="frame">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/1.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media frame-media_right" src="media/fibbee_app.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h3>Pure pleasure</h3>
+					<p> How do u like this, Ilya?</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/2.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame">
+        	<div class="frame__content text-left">
+					<h3>Quality</h3>
+					<p>Don`t stop scrolling</p>
+				</div>
+
+     		</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media" src="media/Fibbee.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>Share Happiness</h3>
+					<p>Brazilian coffee makes sense</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/4.jpg)"></div>
+				</div>
+			</div>
+			<div class="frame"></div>
+
+
+			<script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>
+<!--			<canvas id="video-canvas1"></canvas>-->
+<!--			<script type="text/javascript">-->
+<!--				var canvas1 = document.getElementById('video-canvas1');-->
+<!--				var url1 = 'ws://localhost:9001/';-->
+<!--				var player1 = new JSMpeg.Player(url1, {canvas: canvas1});-->
+<!--			</script>-->
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>Flow Control</h3>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="frame">
+			<div class="frame__content">
+				<div class="frame-media frame-media_right">
+					<div class="jsmpeg" data-url="ws://localhost:9001/"
+						 data-loop="true" data-autoplay="true"></div>
+				</div>
+			</div>
+			</div>
+
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left">
+					<div class="jsmpeg" data-url="ws://localhost:9002/"
+						 data-loop="true" data-autoplay="true"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="frame_bg"></div>
+			<div class="frame">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right">
+						<div class="jsmpeg" data-url="ws://localhost:9000/"
+							 data-loop="true" data-autoplay="true"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left">
+						<div class="jsmpeg" data-url="ws://localhost:9003/"
+							 data-loop="true" data-autoplay="true"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content">© Foodtronics</div>
+			</div>
+
+		</section>
+	</div>
+
+	<img class="soundbutton paused" src="images/sound.gif" alt="Alt">
+	<audio class="audio" src="media/ambient.mp3" loop></audio>
+
+</body>
+</html>
