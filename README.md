@@ -17,7 +17,7 @@ Use Jsmpeg for rtsp streaming over NAT
 
 4) Inside jsmpeg folder:
  
-`node websocket-relay fibbee 9100 9000`
+`node websocket-relay.js fibbee 9100 9000`
 
 5) Run ffmpeg decoding session:
 
