@@ -11,9 +11,9 @@ Use JSMpeg for RTSP streaming over NAT
 2) Install ffmpeg https://ffmpeg.org/
 
 
-3) Clone repo into your project folder
+3) Clone jsmpeg repo into your project folder
 
-`git clone https://github.com/JutsFunFor/fibbee_streaming.git`
+`git clone https://github.com/phoboslab/jsmpeg.git`
 
 4) Inside jsmpeg folder:
  
