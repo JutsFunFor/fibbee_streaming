@@ -22,7 +22,9 @@ We need 3 separate terminals: port forwarding, ffmpeg decoding session, websocke
 
 5) In new terminal run ffmpeg decoding session:
 
-`ffmpeg -rtsp_transport tcp -i rtsp://admin:pipipi@localhost:8888/h264Preview_01_sub -f mpegts -codec:v mpeg1video -framerate 25 -s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee`
+```
+ffmpeg -rtsp_transport tcp -i rtsp://admin:pipipi@localhost:8888/h264Preview_01_sub -f mpegts -codec:v mpeg1video 
+-framerate 25 -s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee```
 
 6) Now you can use stream in your html page!
 
