@@ -24,12 +24,14 @@ We need 3 separate terminals: port forwarding, ffmpeg decoding session, websocke
 
 ```
 ffmpeg -rtsp_transport tcp -i rtsp://admin:pipipi@localhost:8888/h264Preview_01_sub -f mpegts -codec:v mpeg1video 
--framerate 25 -s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee```
+-framerate 25 -s 640x480 -b:v 1500k -bf 0 http://localhost:9100/fibbee
+```
 
 6) Now you can use stream in your html page!
 
 ```html
  <script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>
- <div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true"></div>```
+ <div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true"></div>
+ ```
 
 You can find simple example of html page: `jsmpeg/view_stream.html` or `fibbee.html` in current project
