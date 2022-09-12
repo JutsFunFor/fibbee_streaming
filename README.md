@@ -29,4 +29,4 @@ We need 3 separate terminals: port forwarding, ffmpeg decoding session, websocke
 `<script type="text/javascript" src="jsmpeg/jsmpeg.min.js"></script>`
  `<div class="jsmpeg" data-url="ws://localhost:9000/" data-loop="true" data-autoplay="true"></div>`
 
-You can find simple example of html page: jsmpeg/view_stream.html or fibbee.html in current project
+You can find simple example of html page: `jsmpeg/view_stream.html` or `fibbee.html` in current project
